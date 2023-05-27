@@ -35,5 +35,5 @@ class LogPrintMixin(Log):
         print(f"{msg} ({self.__class__.__name__})")
 
 
-l = LogPrintMixin()
-l.log_success("deu foi certo")
+varFoo = LogPrintMixin()
+varFoo.log_success("deu foi certo")
