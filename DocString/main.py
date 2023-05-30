@@ -1,9 +1,10 @@
-# import uma_linha
-import docStrings_functions
+# import docstrings
+# import docstrings_functions
+import docstrings_class
 
-# print(dir(uma_linha))
-# print(uma_linha.__doc__)
-# print(uma_linha.__file__)
-# print(uma_linha.__name__)
-# help(uma_linha)
-help(docStrings_functions)
+# print(dir(docstrings))
+# print(docstrings.__doc__)
+# print(docstrings.__file__)
+# print(docstrings.__name__)
+# help(docstrings)
+help(docstrings_class)
