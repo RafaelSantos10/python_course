@@ -12,7 +12,7 @@ services:
       - --innodb_force_recovery=0
       - --default_time_zone=America/Sao_Paulo
     volumes: 
-      - ~/.MySQLDBData/mysqlonly/mysql_knex:/var/lib/mysql
+      - C:/.MySQLDBData/mysqlonly/mysql_knex:/var/lib/mysql
     ports:
       - 3306:3306
     environment:
